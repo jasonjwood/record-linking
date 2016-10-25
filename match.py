@@ -33,10 +33,8 @@ def main():
         for line in products_file:
             product = json.loads(line)
             print product
-            product.product_name = product.product_name.replace("_", " ")
+            product['product_name'] = product['product_name'].replace("_", " ")
             products_list.append(product)
-
-    print products_list
 
     # Create Output
     results_list = set()
@@ -57,10 +55,10 @@ def main():
 
 def match_listing_to_product(listing, products):
     for product in products:
-        if product.manufacturer == listing.manufacturer:
-            tokens = listing.title.split()
+        if product['manufacturer'] == listing['manufacturer']:
+            tokens = listing['title'].split()
             if tokens.contains(product.model):
-                if product.family_name is None or tokens.contains(product.family_name):
+                if product['family_name'] is None or tokens.contains(product['family_name']):
                     return Match(product, listing)
 
     return None
