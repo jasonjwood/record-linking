@@ -1,4 +1,5 @@
 import json
+import time
 
 # Given list of products and list of listings of products, match listings to products
 # (It's more important to have a correct match than to identify all matches.)
@@ -16,7 +17,8 @@ class Result:
         self.product_name = name
 
     def to_json(self):
-        return "{\"product_name\": \"" +  self.product_name + "\", \"listings\": " + json.dumps(self.listings) + "}"
+        # todo: I feel like this is unnecessary; figure out how to eliminate it.
+        return "{\"product_name\": \"" + self.product_name + "\", \"listings\": " + json.dumps(self.listings) + "}"
 
 
 class Match:
@@ -28,8 +30,9 @@ class Match:
         self.listing = listing
 
 
-
 def main():
+    start = time.time()
+
     # Fetch products
     products_list = []
     with open("products.txt") as products_file:
@@ -59,14 +62,13 @@ def main():
                 results_list[match_product_name].listings.append(listing)
 
                 # todo: ensure no dupes in list
-    #print results_list.__sizeof__()
-    #for result in results_list:
-    #    print result
 
     with open("results.txt", "w") as results_file:
         for key in results_list:
             results_file.writelines([results_list[key].to_json(), "\n"])
 
+    run_time = time.time() - start
+    print "Run time = " + str(run_time) + " seconds"
 
 
 def match_listing_to_product(listing, products):
