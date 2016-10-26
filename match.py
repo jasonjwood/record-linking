@@ -15,6 +15,9 @@ class Result:
         self.listings = listings
         self.product_name = name
 
+    def to_json(self):
+        return "{\"product_name\": \"" +  self.product_name + "\", \"listings\": " + json.dumps(self.listings) + "}"
+
 
 class Match:
     product = None
@@ -32,12 +35,12 @@ def main():
     with open("products.txt") as products_file:
         for line in products_file:
             product = json.loads(line)
-            print product
+            product['original_name'] = product['product_name']
             product['product_name'] = product['product_name'].replace("_", " ")
             products_list.append(product)
 
     # Create Output
-    results_list = set()
+    results_list = dict()
 
     # Match listings to products to form results
     with open("listings.txt") as listings_file:
@@ -49,16 +52,32 @@ def main():
 
             match = match_listing_to_product(listing, products_list)
             if match is not None:
-                results_list(match.product_name).append(listing)
+                match_product_name = match.product['original_name']
+                if match_product_name not in results_list:
+                    results_list[match_product_name] = Result(match_product_name, [])
+
+                results_list[match_product_name].listings.append(listing)
+
                 # todo: ensure no dupes in list
+    #print results_list.__sizeof__()
+    #for result in results_list:
+    #    print result
+
+    with open("results.txt", "w") as results_file:
+        for key in results_list:
+            results_file.writelines([results_list[key].to_json(), "\n"])
+
 
 
 def match_listing_to_product(listing, products):
     for product in products:
         if product['manufacturer'] == listing['manufacturer']:
-            tokens = listing['title'].split()
-            if tokens.contains(product.model):
-                if product['family_name'] is None or tokens.contains(product['family_name']):
+            tokens = set()
+            for token in listing['title'].split():
+                tokens.add(token)
+
+            if product['model'] in tokens:
+                if product.get('family', None) is None or product['family'] in tokens:
                     return Match(product, listing)
 
     return None
@@ -70,3 +89,5 @@ def match_listing_to_product(listing, products):
 
 
 main()
+
+print "Done"
