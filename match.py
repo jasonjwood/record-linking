@@ -33,14 +33,17 @@ class Match:
 def main():
     start = time.time()
 
-    # Fetch products
-    products_list = []
+    # Fetch products, tokenize and store tokens with product object
+    products_dict = dict()
     with open("products.txt") as products_file:
         for line in products_file:
             product = json.loads(line)
-            product['original_name'] = product['product_name']
-            product['product_name'] = product['product_name'].replace("_", " ")
-            products_list.append(product)
+            if product['manufacturer'] in products_dict:
+                products_dict[product['manufacturer']].append(product)
+            else:
+                products_dict[product['manufacturer']] = [product]
+
+    print "1 >> " + str(time.time() - start)
 
     # Create Output
     results_list = dict()
@@ -53,43 +56,37 @@ def main():
             #   product.manufacturer=listing.manufacturer
             #   product.model and product.family (if exists) are exact-matched in listing title
 
-            match = match_listing_to_product(listing, products_list)
+            match = match_listing_to_product(listing, products_dict)
             if match is not None:
-                match_product_name = match.product['original_name']
+                match_product_name = match.product['product_name']
                 if match_product_name not in results_list:
                     results_list[match_product_name] = Result(match_product_name, [])
 
                 results_list[match_product_name].listings.append(listing)
 
-                # todo: ensure no dupes in list
+    print "2 >> " + str(time.time() - start)
 
     with open("results.txt", "w") as results_file:
         for key in results_list:
             results_file.writelines([results_list[key].to_json(), "\n"])
 
-    run_time = time.time() - start
-    print "Run time = " + str(run_time) + " seconds"
+    print "# matches = " + str(len(results_list))
+    print "Run time = " + str(time.time() - start) + " seconds"
 
 
 def match_listing_to_product(listing, products):
-    for product in products:
-        if product['manufacturer'] == listing['manufacturer']:
-            tokens = set()
-            for token in listing['title'].split():
-                tokens.add(token)
+    if products.get(listing['manufacturer'], None) is None:
+        return None
 
-            if product['model'] in tokens:
-                if product.get('family', None) is None or product['family'] in tokens:
-                    return Match(product, listing)
+    for product in products[listing['manufacturer']]:
+        tokens = set()
+        for token in listing['title'].split():
+            tokens.add(token)
+
+        if product['model'] in tokens and (product.get('family', None) is None or product['family'] in tokens):
+            return Match(product, listing)
 
     return None
 
-
-
-
-
-
-
 main()
-
 print "Done"
