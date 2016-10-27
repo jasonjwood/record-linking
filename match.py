@@ -63,22 +63,27 @@ def main():
     results_dict = dict()
 
     # Match listings to products to form results
+    match_time = 0
     with open("listings.txt") as listings_file:
         for line in listings_file:
             # Load listing
             listing = json.loads(line)
 
             # Match listing to products
+            match_start_time = time.time()
             match = match_listing_to_product(listing, products_dict)
+            match_time += time.time() - match_start_time
 
             # Add match (if found) to the results list
-            if match is not None:
-                match_product_name = match.product['product_name']
-                if match_product_name not in results_dict:
-                    results_dict[match_product_name] = Result(match_product_name, [])
+            if match is None:
+                continue
 
-                results_dict[match_product_name].listings.append(listing)
+            match_product_name = match.product['product_name']
+            if match_product_name not in results_dict:
+                results_dict[match_product_name] = Result(match_product_name, [])
 
+            results_dict[match_product_name].listings.append(listing)
+    print "match_time = " + str(match_time)
     print "2 >> " + str(time.time() - start)
 
     # Write results file
@@ -98,17 +103,18 @@ def main():
     print "Run time = " + str(time.time() - start) + " seconds"
 
 
+
 def match_listing_to_product(listing, products):
     # For now, naively assume that we just want to match manufacturer and find "family" and "model" in the listing title
     listing_manuf =  listing['manufacturer'].lower()
     if products.get(listing_manuf, None) is None:
         return None
 
-    for product in products[listing_manuf]:
-        tokens = set()
-        for token in listing['title'].split():
-            tokens.add(token.lower())
+    tokens = set()
+    for token in listing['title'].split():
+        tokens.add(token.lower())
 
+    for product in products[listing_manuf]:
         if product['model'] in tokens and (product.get('family', None) is None or product['family'] in tokens):
             return Match(product, listing)
 
