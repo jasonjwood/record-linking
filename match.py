@@ -1,5 +1,6 @@
 import json
 import time
+from collections import defaultdict
 
 # Given list of products and list of listings of products, match listings to products
 # (It's more important to have a correct match than to identify all matches.)
@@ -57,7 +58,7 @@ def main():
     print "1 >> " + str(time.time() - start)
 
     # Create Output
-    results_dict = dict()
+    results_dict = defaultdict(list)
 
     # Match listings to products to form results
     match_time = 0
@@ -75,11 +76,12 @@ def main():
             if match is None:
                 continue
 
-            match_product_name = match.product['product_name']
-            if match_product_name not in results_dict:
-                results_dict[match_product_name] = Result(match_product_name, [])
+            results_dict[match.product['product_name']].listings.append(listing)
 
-            results_dict[match_product_name].listings.append(listing)
+            #match_product_name = match.product['product_name']
+            #if match_product_name not in results_dict:
+            #    results_dict[match_product_name] = Result(match_product_name, [])
+            #results_dict[match_product_name].listings.append(listing)
 
     print "match_time = " + str(match_time)
     print "2 >> " + str(time.time() - start)
@@ -103,20 +105,18 @@ def main():
 
 def match_listing_to_product(listing, products):
     # For now, naively assume that we just want to match manufacturer and find "family" and "model" in the listing title
-    listing_manuf = listing['manufacturer'].lower()
-    if products.get(listing_manuf, None) is None:
+    products_by_manufacturer = products.get(listing['manufacturer'].lower(), None)
+    if products_by_manufacturer is None:
         return None
 
-    tokens = set()
-    for token in listing['title'].split():
-        tokens.add(token.lower())
+    tokens = set([token.lower() for token in listing['title'].split()])
 
-    # Dirty hack that's probably not appropriate in the general case - from inspection of the data, when we see "for",
-    # we're often looking at an accessory rather than a camera
+    # Dirty hack that's probably not appropriate in the general case - from inspection of the data, when we see "for"
+    # we're often looking at an accessory rather than a camera - We lose ~40 good matches to eliminate ~20 bad matches
     if "for" in tokens or "pour" in tokens:
         return None
 
-    for product in products[listing_manuf]:
+    for product in products_by_manufacturer:
         if product['model'] in tokens and (product.get('family', None) is None or product['family'] in tokens):
             return Match(product, listing)
 
