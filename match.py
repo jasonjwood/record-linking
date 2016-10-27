@@ -2,41 +2,9 @@ import json
 import time
 from collections import defaultdict
 
+
 # Given list of products and list of listings of products, match listings to products
 # (It's more important to have a correct match than to identify all matches.)
-
-# Start naive, then get more efficient
-class Result:
-    product_name = ''
-    listings = []
-
-    def __init__(self, name, listings):
-        self.listings = listings
-        self.product_name = name
-
-    def to_json(self):
-        # todo: I feel like this is unnecessary; figure out how to eliminate it.
-        return "{\"product_name\": \"" + self.product_name + "\", \"listings\": " + json.dumps(self.listings) + "}"
-
-    def to_eval_json(self):
-        s = ""
-        for listing in self.listings:
-            s += "{" + self.product_name + "} = {" + listing['title'] + "}\n"
-
-        s += "\n\n"
-        return s
-
-
-
-class Match:
-    product = None
-    listing = None
-
-    def __init__(self, product, listing):
-        self.product = product
-        self.listing = listing
-
-
 def main():
     start = time.time()
 
@@ -69,19 +37,14 @@ def main():
 
             # Match listing to products
             match_start_time = time.time()
-            match = match_listing_to_product(listing, products_dict)
+            product_name = match_listing_to_product(listing, products_dict)
             match_time += time.time() - match_start_time
 
             # Add match (if found) to the results list
-            if match is None:
+            if product_name is None:
                 continue
 
-            results_dict[match.product['product_name']].listings.append(listing)
-
-            #match_product_name = match.product['product_name']
-            #if match_product_name not in results_dict:
-            #    results_dict[match_product_name] = Result(match_product_name, [])
-            #results_dict[match_product_name].listings.append(listing)
+            results_dict[product_name].append(listing)
 
     print "match_time = " + str(match_time)
     print "2 >> " + str(time.time() - start)
@@ -90,25 +53,30 @@ def main():
     listing_count = 0
     with open("results.txt", "w") as results_file:
         for key in results_dict:
-            results_file.writelines([results_dict[key].to_json(), "\n"])
-            listing_count += len(results_dict[key].listings)
+            results_file.write(
+                    "{\"product_name\": \"" + key + "\", \"listings\": " + json.dumps(results_dict[key]) + "}\n")
+            listing_count += len(results_dict[key])
 
     # Write evaluation file
     with open("eval.txt", "w") as eval_file:
-       for key in results_dict:
-           eval_file.writelines([results_dict[key].to_eval_json().encode('utf8')])
+        for key in results_dict:
+            s = "".join(["{" + key + "} = {" + listing['title'] + "}\n" for listing in results_dict[key]]) + "\n\n"
+            eval_file.write(s.encode('utf8'))
 
     print "# matches = " + str(len(results_dict))
     print "# listings = " + str(listing_count)
     print "Run time = " + str(time.time() - start) + " seconds"
 
 
+# Return the name of the product that matches the given listing.
+# For now, naively assume that we just want to match manufacturer and find "family" and "model" in the listing title
 def match_listing_to_product(listing, products):
-    # For now, naively assume that we just want to match manufacturer and find "family" and "model" in the listing title
+    # manufacturer must match
     products_by_manufacturer = products.get(listing['manufacturer'].lower(), None)
     if products_by_manufacturer is None:
         return None
 
+    # tokenize listing title and look for key elements of product
     tokens = set([token.lower() for token in listing['title'].split()])
 
     # Dirty hack that's probably not appropriate in the general case - from inspection of the data, when we see "for"
@@ -118,7 +86,7 @@ def match_listing_to_product(listing, products):
 
     for product in products_by_manufacturer:
         if product['model'] in tokens and (product.get('family', None) is None or product['family'] in tokens):
-            return Match(product, listing)
+            return product['product_name']
 
     return None
 
