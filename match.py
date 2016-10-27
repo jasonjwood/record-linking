@@ -5,9 +5,6 @@ import time
 # (It's more important to have a correct match than to identify all matches.)
 
 # Start naive, then get more efficient
-
-
-
 class Result:
     product_name = ''
     listings = []
@@ -83,36 +80,41 @@ def main():
                 results_dict[match_product_name] = Result(match_product_name, [])
 
             results_dict[match_product_name].listings.append(listing)
+
     print "match_time = " + str(match_time)
     print "2 >> " + str(time.time() - start)
 
     # Write results file
+    listing_count = 0
     with open("results.txt", "w") as results_file:
         for key in results_dict:
             results_file.writelines([results_dict[key].to_json(), "\n"])
+            listing_count += len(results_dict[key].listings)
 
     # Write evaluation file
-    listing_count = 0
     with open("eval.txt", "w") as eval_file:
-        for key in results_dict:
-            listing_count += len(results_dict[key].listings)
-            eval_file.writelines([results_dict[key].to_eval_json().encode('utf8')])
+       for key in results_dict:
+           eval_file.writelines([results_dict[key].to_eval_json().encode('utf8')])
 
     print "# matches = " + str(len(results_dict))
     print "# listings = " + str(listing_count)
     print "Run time = " + str(time.time() - start) + " seconds"
 
 
-
 def match_listing_to_product(listing, products):
     # For now, naively assume that we just want to match manufacturer and find "family" and "model" in the listing title
-    listing_manuf =  listing['manufacturer'].lower()
+    listing_manuf = listing['manufacturer'].lower()
     if products.get(listing_manuf, None) is None:
         return None
 
     tokens = set()
     for token in listing['title'].split():
         tokens.add(token.lower())
+
+    # Dirty hack that's probably not appropriate in the general case - from inspection of the data, when we see "for",
+    # we're often looking at an accessory rather than a camera
+    if "for" in tokens or "pour" in tokens:
+        return None
 
     for product in products[listing_manuf]:
         if product['model'] in tokens and (product.get('family', None) is None or product['family'] in tokens):

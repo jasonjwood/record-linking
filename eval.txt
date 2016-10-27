@@ -135,7 +135,6 @@
 {Nikon_D7000} = {Nikon D7000 Digital SLR Camera & 18-105mm VR DX AF-S Zoom Lens with 16GB Card + Filter + Case + Accessory Kit}
 {Nikon_D7000} = {Nikon D7000 16.2 MP Digital SLR Camera & 18-105mm VR DX AF-S Zoom Lens with 55-300mm VR Lens + 16GB Card + Filters + Backpack Case + Tripod + Accessory Kit}
 {Nikon_D7000} = {Nikon D7000 Digital SLR Camera & 18-105mm VR DX AF-S Zoom Lens with 8GB Card + Filter + Holster Case + Accessory Kit}
-{Nikon_D7000} = {Nikon D7000 16.2mp Dx-format Cmos Digital SLR with 3.0-inch LCD (Black) with the Best Value Accessory Package Kit Includes 16gb High Speed Error Free Memory Card, Card Reader, Dedicated Ettl Bounce / Swivel Flash for Nikon, 3 Piece 58mm Filter Kit for Camera, Soft Deluxe Carrying Case, Hard Tulip Lens Hood, 72 Inch Size Tripod, Lens Cleaning Kit, LCD Screen Protectors + More}
 {Nikon_D7000} = {Nikon D7000 Digital SLR Camera Body with 18-200mm VR II Zoom Lens + 16GB Card + Filter + Case + Accessory Kit}
 {Nikon_D7000} = {Nikon D7000 Digital SLR Camera & 18-105mm VR + 55-200mm Lens + 32GB Card + Filters + Case + Accessory Kit}
 {Nikon_D7000} = {Nikon D7000 Digital SLR Camera & 18-105mm VR + 55-300mm VR Lens + 32GB Card + Filters + Case + Accessory Kit}
@@ -197,7 +196,6 @@
 {Nikon_D7000} = {NIKON D7000 nu}
 {Nikon_D7000} = {Nikon D7000 + AF-S 28-300mm f3,5-5,6G ED VR}
 {Nikon_D7000} = {Nikon D7000 + AF-S 24-120 mm f4G ED VR}
-{Nikon_D7000} = {Nikon D7000 + Sigma 17-70mm f2,8-4 DC Macro OS HSM pour Nikon}
 {Nikon_D7000} = {Nikon D7000 + AF-S DX Nikkor 18-55mm f/3.5-5.6G VR + AF-S 55-300mm f4,5-5,6G ED VR DX}
 {Nikon_D7000} = {Nikon - D7000 - Réflex numérique Boîtier nu - 16,2 Mpix - Écran 3" - Noir}
 {Nikon_D7000} = {Nikon - D7000 - Réflex numérique Boîtier nu - 16,2 Mpix - Écran 3" - Noir}
@@ -738,28 +736,19 @@
 {Panasonic_Lumix_DMC-TZ10} = {Panasonic LUMIX DMC-TZ10 12.1MP Super Zoom Digital Camera (Black) (DMC-TZ10EB-K)}
 {Panasonic_Lumix_DMC-TZ10} = {228563: Panasonic LUMIX DMC-TZ10 12.1MP Super Zoom Digital Camera (Black) (DMC-TZ10EB-K)}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 - chocolate + Compact Pix Case - black (11x3.5x8 cm) + 8 GB SDHC Memory Card + Pocketpod Mini Tripod (ComboKit)}
-{Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 - chocolate + Compact Pix Case - black (11x3.5x8 cm) + 16 GB SDHC Memory Card + DMW-BCG10 Battery for TZ6/TZ7/TZ8/TZ10 cameras + 1000-in-1 USB 2.0 Card Reader (ComboKit)}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 - chocolate + Leather Case - black}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 - chocolate + Compact Pix Case - black (11x3.5x8 cm) + 8 GB SDHC Memory Card + Pocketpod Mini Tripod}
-{Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 - chocolate + Compact Pix Case - black (11x3.5x8 cm) + 16 GB SDHC Memory Card + DMW-BCG10 Battery for TZ6/TZ7/TZ8/TZ10 cameras + 1000-in-1 USB 2.0 Card Reader}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 - chocolate + Leather Case - black}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 silver + Compact Camera Leather Case - 11x3.5x8 cm + 16 GB SDHC Memory Card}
-{Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 silver + Compact Camera Leather Case - 11x3.5x8 cm + 16 GB SDHC Memory Card + DMW-BCG10 Battery for TZ6/TZ7/TZ8/TZ10 cameras}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 silver + Compact Camera Leather Case - 11x3.5x8 cm + 8 GB SDHC Memory Card}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 silver}
-{Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 silver + Compact Camera Leather Case - 11x3.5x8 cm + 16 GB SDHC Memory Card + DMW-BCG10 Battery for TZ6/TZ7/TZ8/TZ10 cameras}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 silver + Compact Camera Leather Case - 11x3.5x8 cm + 8 GB SDHC Memory Card}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 silver + Compact Camera Leather Case - 11x3.5x8 cm + 16 GB SDHC Memory Card}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 - chocolate + Leather Case - black}
-{Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 - chocolate + Compact Pix Case - black (11x3.5x8 cm) + 16 GB SDHC Memory Card + DMW-BCG10 Battery for TZ6/TZ7/TZ8/TZ10 cameras + 1000-in-1 USB 2.0 Card Reader}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 - chocolate + Compact Pix Case - black (11x3.5x8 cm) + 8 GB SDHC Memory Card + Pocketpod Mini Tripod}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 - chocolate}
-{Panasonic_Lumix_DMC-TZ10} = {Panasonic Batterie Original pour PANASONIC LUMIX DMC-TZ10 / TZ8 / ZX3 / TZ20 / TZ22 / TZ18 - offre de LOOKit® Expédié depuis Allemagne}
-{Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 silver + Etui Pixmania compact cuir 11 x 3,5 x 8 cm + Carte mémoire SDHC 16 Go + Batterie Panasonic DMW-BCG10 pour TZ6/TZ7/TZ8/TZ10 + Lecteur de cartes 1000 en 1 USB 2.0}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 noir + Etui cuir Panasonic noir}
 {Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 noir + Etui Pixmania compact cuir 11 x 3,5 x 8 cm + Carte mémoire SDHC 16 Go}
-{Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 noir + Etui Pixmania Compact 11 X 3.5 X 8 CM NOIR + Carte mémoire SDHC 16 Go + Batterie Panasonic DMW-BCG10 pour TZ6/TZ7/TZ8/TZ10}
-{Panasonic_Lumix_DMC-TZ10} = {PANASONIC Lumix DMC-TZ10 silver + Etui Pixmania compact cuir 11 x 3,5 x 8 cm + Carte mémoire SDHC 8 Go + Batterie Panasonic DMW-BCG10 pour TZ6/TZ7/TZ8/TZ10}
 
 
 {Samsung_ST500} = {Samsung ST500 Digitalkamera (12 Megapixel, 5-fach Zoom, 7,6 cm (3 Zoll) Touchscreen, Front Display mit 1,5&#8220,, Bildstabilisierung) red}
@@ -1282,7 +1271,6 @@
 {Samsung_HZ15W} = {Samsung HZ15W 12MP Digital Camera with 10x Schneider Wide Angle Dual Image Stabilized Zoom and 3.0 inch LCD (Grey)}
 
 
-{Kodak_EasyShare_M341} = {Kodak Easyshare M341 Digital Camera, Smile G150 Digital Picture Keychain, and $20 Coupon for Digital Frame Bundle}
 {Kodak_EasyShare_M341} = {Kodak EasyShare M341 Digital Camera (Black)}
 {Kodak_EasyShare_M341} = {Kodak EasyShare M341 Digital Camera (Black)}
 {Kodak_EasyShare_M341} = {Kodak EasyShare M341 Digital Camera (Black)}
@@ -1432,10 +1420,6 @@
 {Canon_EOS_60D} = {Canon EOS 60D Digital SLR Camera Body with 18-135mm IS Lens & 55-250mm IS Lens + 32GB Card + Case + Accessory Kit}
 {Canon_EOS_60D} = {Canon EOS 60D Digital SLR Camera / Lens Kit, Black with EF 18-135mm f/3.5-5.6 IS Lens - U.S.A. Warranty - 2 4GB SDHC Memory Cards (total of 8GB), Slinger Camera Bag, Spare LP E6 Lithium-Ion Rehargeable Battery. USB 2.0 SD Card Reader}
 {Canon_EOS_60D} = {Canon EOS 60D Digital SLR Camera Body with EF-S 18-135mm IS Lens + 16GB Card + Battery + Case + Accessory Kit}
-{Canon_EOS_60D} = {Canon EOS 60D 18 MP CMOS Digital SLR Camera w/ Canon EF-S 18-200mm f/3.5-5.6 IS Autofocus Lens + 3-Year Extended Warranty for Canon EOS D-SLRs + 16GB Bonus Photographers Package # 1}
-{Canon_EOS_60D} = {Canon EOS 60D 18 MP CMOS APS-C Digital SLR Camera with 3.0-Inch LCD (Body Only) + 3-Year Extended Warranty for Canon EOS D-SLRs + 16GB Bonus Photographers Package # 1}
-{Canon_EOS_60D} = {Canon EOS 60D 18 MP CMOS Digital SLR Camera w/ Canon EF 28-135mm f/3.5-5.6 IS Image Stabilizer USM Autofocus Lens + 3-Year Extended Warranty for Canon EOS D-SLRs + 16GB Bonus Photographers Package # 1}
-{Canon_EOS_60D} = {Canon EOS 60D 18 MP CMOS Digital SLR Camera w/ Canon EF-S 18-135mm f/3.5-5.6 IS Lens + 3-Year Extended Warranty for Canon EOS D-SLRs + 16GB Bonus Photographers Package # 1}
 {Canon_EOS_60D} = {Canon EOS 60D Digital Camera + 24GB Memory + 7 Lens Deluxe Camera Kit}
 {Canon_EOS_60D} = {Canon EOS 60D Digital SLR Camera Body with EF-S 18-135mm IS Lens & 75-300mm III Lens + 32GB Card + Battery + Case + Accessory Kit}
 {Canon_EOS_60D} = {Canon EOS 60D 18 MP CMOS Digital SLR Camera with Canon EF-S 28-135mm Lens + Essential 16GB Accessory Kit Package}
@@ -1457,7 +1441,6 @@
 {Canon_EOS_60D} = {Canon EOS 60D Digital SLR Camera Body with EF-S 18-135mm IS Lens & 55-250mm IS Lens + 16GB Card + Case + Accessory Kit}
 {Canon_EOS_60D} = {Canon EOS 60D 18 MP CMOS Digital SLR Camera with Canon EF-S 18-55mm f/3.5-5.6 IS Lens + EF-S 55-250mm f/4-5.6 IS + Huge Pro Shooter 32GB Accessory Package}
 {Canon_EOS_60D} = {Canon EOS 60D Digital SLR Camera Body with EF-S 18-135mm IS Lens & 55-250mm IS Lens + 16GB Card + Battery + Case + Tripod + Accessory Kit}
-{Canon_EOS_60D} = {Canon EF 70-300mm f/4-5.6 IS USM AF Lens + Canon 2400 DSLR Gadget Bag Case + Accessory Kit for Digital Rebel XT, XTi, XS, XSi, T1i, T2i, EOS 30D, 40D, 5D, 7D, 50D & 60D Digital SLR Cameras}
 {Canon_EOS_60D} = {Canon EOS 60D 18 MP DSLR Camera w/ Tamron 18-270mm f/3.5-6.3 DI II VC LD Aspherical Lens. Kit Includes 8GB Memory Card, Deluxe SLR Holster Case, LP-E6 Battery + Charger, Video/Photo Tripod, & 3pc. Lens Cleaning Kit. Save Up To 500.00 Canon Printer Rebate}
 {Canon_EOS_60D} = {Canon EOS 60D 18MP CMOS Digital SLR Camera (Body) with 3.0-Inch LCD & Canon EF 28-135mm f/3.5-5.6 IS USM Lens PLUS Exclusive Willoughby's Bundle Offer Pack # 1}
 {Canon_EOS_60D} = {Canon EOS 60D 18 MP CMOS Digital SLR Camera with Canon EF-S 18-135mm Lens + Essential 16GB Accessory Kit Package}
@@ -1563,9 +1546,6 @@
 {Olympus-XZ-1} = {Olympus XZ-1 Digitalkamera (10 Megapixel, 4-fach opt, Zoom, 7,6 cm (3 Zoll) OLED-Display, bildstabilisiert) weiß}
 {Olympus-XZ-1} = {Olympus - XZ-1 - Appareil Photo Numérique - 10 Mpix - Zoom 4x - Noir Mat}
 {Olympus-XZ-1} = {Olympus - XZ-1 - Appareil Photo Numérique - 10 Mpix - Zoom 4x - Noir Mat}
-{Olympus-XZ-1} = {Olympus - CSCH-84 - Etui en cuir pour XZ-1 - Noir}
-{Olympus-XZ-1} = {Olympus - Caisson étanche pour XZ-1}
-{Olympus-XZ-1} = {Olympus - Caisson étanche pour XZ-1}
 {Olympus-XZ-1} = {Olympus - XZ-1 - Appareil Photo Numérique - 10 Mpix - Zoom 4x - Blanc Laqué}
 {Olympus-XZ-1} = {Olympus - XZ-1 - Appareil Photo Numérique - 10 Mpix - Zoom 4x - Blanc Laqué}
 {Olympus-XZ-1} = {OLYMPUS XZ-1 - blanc}
@@ -1652,14 +1632,10 @@
 
 
 {Panasonic_Lumix_DMC-ZX3} = {PANASONIC Lumix DMC-ZX3 - red + Compact Pix Case - black (11x3.5x8 cm) + 16 GB SDHC Memory Card}
-{Panasonic_Lumix_DMC-ZX3} = {PANASONIC Lumix DMC-ZX3 - red + Compact Camera Leather Case - 11x3.5x8 cm + 16 GB Ultra SDHC Memory Card + DMW-BCG10 Battery for TZ6/TZ7/TZ8/TZ10 cameras + 1000-in-1 USB 2.0 Card Reader}
 {Panasonic_Lumix_DMC-ZX3} = {PANASONIC Lumix DMC-ZX3 - red}
-{Panasonic_Lumix_DMC-ZX3} = {PANASONIC Lumix DMC-ZX3 - red + Compact Pix Case - black (11x3.5x8 cm) + 16 GB SDHC Memory Card + DMW-BCG10 Battery for TZ6/TZ7/TZ8/TZ10 cameras + 1000-in-1 USB 2.0 Card Reader}
-{Panasonic_Lumix_DMC-ZX3} = {PANASONIC Lumix DMC-ZX3 rouge + Etui Pixmania Compact 11 X 3.5 X 8 CM NOIR + Carte mémoire SDHC 16 Go + Batterie Panasonic DMW-BCG10 pour TZ6/TZ7/TZ8/TZ10 + Lecteur de cartes 1000 en 1 USB 2.0}
 {Panasonic_Lumix_DMC-ZX3} = {PANASONIC Lumix DMC-ZX3 rouge + Etui Pixmania Compact 11 X 3.5 X 8 CM NOIR + Carte mémoire SDHC 16 Go}
 
 
-{Canon_EOS_7D} = {Canon LP-E6 Battery for Canon EOS 5D Mark II 7D LPE6}
 {Canon_EOS_7D} = {Canon 3814B004 18.0-MP EOS 7D SLR Digital Camera (Camera Body Only)}
 {Canon_EOS_7D} = {Canon 3814B004 18.0-MP EOS 7D SLR Digital Camera (Camera Body Only)}
 {Canon_EOS_7D} = {Canon EOS 7D 18 MP CMOS Digital SLR Camera with 3-inch LCD and 28-135mm f/3.5-5.6 IS USM Standard Zoom Lens}
@@ -2881,10 +2857,8 @@
 {Sony_SLT-A33} = {Sony Alpha SLT-A33 DSLR with Translucent Mirror Technology and 3D Sweep Panorama (Body Only) with Sony SAL552002 Telephoto Zoom Lens and SAL85F28 Telephoto Lens}
 {Sony_SLT-A33} = {Sony Alpha SLT-A33 DSLR with Translucent Mirror Technology and 3D Sweep Panorama (Body Only) with Sony SAL75300 Zoom Lens and SAL30M28 30mm Lens}
 {Sony_SLT-A33} = {Sony SLT-A33 Translucent Mirror a33 DSLR Camera, with Sony 75-300mm f/4.5-5.6 a (alpha) Mount Digital SLR Telephoto Zoom Lens}
-{Sony_SLT-A33} = {Sony SLT-A33 Translucent Mirror a33 DSLR Camera, with Sony DT 55 - 200mm f/4-5.6 Telephoto Zoom Lens for (alpha) DSLR Camera}
 {Sony_SLT-A33} = {Sony SLT-A33 Alpha DSLR SLTA33 14.2MP Digital Camera with SAL-18200 18-200mm f/3.5-6.3 DT Aspherical Autofocus Lens + 14Pc Starter Pack # 3}
 {Sony_SLT-A33} = {SONY Alpha SLT-A33 - camera body only + SLR Camera Case - 15x11x14.5 cm + 16 GB SDHC Memory Card}
-{Sony_SLT-A33} = {SONY Alpha SLT-A33 - camera body only + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card + Trepix lightweight tripod}
 {Sony_SLT-A33} = {SONY Alpha SLT-A33 - camera body only + SLR Camera Case - 15x11x14.5 cm + 16 GB SDHC Memory Card + Trepix lightweight tripod}
 {Sony_SLT-A33} = {SONY Alpha SLT-A33 - camera body only}
 {Sony_SLT-A33} = {SONY Alpha SLT-A33 - camera body only + SLR Camera Case - 15x11x14.5 cm + 16 GB SDHC Memory Card}
@@ -3365,7 +3339,6 @@
 
 
 {Panasonic_Lumix_DMC-FZ38} = {Lumix DMC-FZ38 (Schwarz)}
-{Panasonic_Lumix_DMC-FZ38} = {Panasonic - Chargeur de marque de renom - Original - pour Lumix DMC-FZ38 / FZ28 / FZ8 - Batteries CGA-S006, CGA S006E, CGR-S006, CGR-S006E - offre de LOOKit®}
 
 
 {Kodak-C143} = {Kodak EasyShare C143 12.5 MP Digital Camera with 3x Optical Zoom (Blue)}
@@ -3499,7 +3472,6 @@
 {Canon_EOS_500D} = {CANON EOS 500D (camera only) + AF 18-270 mm f/3.5-6.3 DI II VC LD Aspherical [IF] Macro Lens}
 {Canon_EOS_500D} = {CANON EOS 500D + EF-S 18-55mm Lens + EF-S 55-250mm Lens + DSLR Kit 1 accessories pack (ComboKit)}
 {Canon_EOS_500D} = {CANON EOS 500D + EF-S 18-55mm Lens + EF-S 55-250mm Lens + SLR Camera Case - 15x11x14.5 cm + 16 GB SDHC Memory Card + LP-E5 Battery}
-{Canon_EOS_500D} = {CANON EOS 500D (camera only) + AF 18-270 mm f/3.5-6.3 DI II VC LD Aspherical [IF] Macro Lens + Expert Shot Backpack for digital cameras - black/orange}
 {Canon_EOS_500D} = {CANON EOS 500D (camera only)}
 {Canon_EOS_500D} = {CANON EOS 500D + EF-S 18-55mm Lens + EF-S 55-250mm Lens + SLR Camera Case - 15x11x14.5 cm + 16 GB SDHC Memory Card + LP-E5 Battery}
 {Canon_EOS_500D} = {CANON EOS 500D + EF-S 18-55mm Lens + EF-S 55-250mm Lens + DSLR Kit 1 accessories pack}
@@ -3886,7 +3858,6 @@
 {Nikon_D3100} = {Nikon D3100 14.2MP Digital SLR Camera with 18-55mm f/3.5-5.6G AF-S DX "VR" and 55-200mm f/4-5.6G ED IF AF-S DX "VR" Zoom-Nikkor Lenses + 16GB Deluxe Accessory Kit}
 {Nikon_D3100} = {Nikon D3100 Digital SLR Camera & 18-55mm VR + 55-300mm VR Lens with 16GB Card + Filters + Case + Tripod + Accessory Kit}
 {Nikon_D3100} = {Nikon D3100 14.2MP Digital SLR Camera with 18-55mm f/3.5-5.6G AF-S DX VR and 55-200mm f4-5.6G ED AF-S DX Zoom-Nikkor Lenses + EN-EL14 Battery + 16GB Deluxe Accessory Kit}
-{Nikon_D3100} = {Nikon 85mm f/3.5 G VR AF-S DX ED Micro-Nikkor Lens + UV Filter + Accessory Kit for Nikon D300s, D300, D40, D60, D5000, D7000, D90, D3000 & D3100 Digital SLR Cameras}
 {Nikon_D3100} = {Nikon D3100 14.2MP Digital SLR Camera with 18-55mm f/3.5-5.6G AF-S DX VR and 55-300mm f/4.5-5.6G ED VR AF-S DX NIKKOR Zoom Lens + 16GB Deluxe Accessory Kit}
 {Nikon_D3100} = {Nikon D3100 Digital SLR Camera & 18-55mm VR + 55-200mm VR Lens with 16GB Card + Filters + Case + Tripod + Accessory Kit}
 {Nikon_D3100} = {Nikon D3100 Digital SLR Camera & 18-55mm VR + 55-200mm DX Lens with 16GB Card + Filters + Case + Tripod + Accessory Kit}
@@ -3924,24 +3895,17 @@
 {Nikon_D3100} = {Nikon D3100 14.2MP Digital SLR Camera with 18-55mm f/3.5-5.6G AF-S DX VR Nikkor Zoom Lens + AF-S DX VR Zoom-NIKKOR 55-200mm f/4-5.6G IF-ED}
 {Nikon_D3100} = {Nikon D3100 18-55vr Kit}
 {Nikon_D3100} = {Nikon D3100 18-55vr Kit}
-{Nikon_D3100} = {NIKON D3100 + AF-S DX 18-55 mm VR Lens + AF-S DX 55-200 mm VR Lens + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card + Trepix lightweight tripod (ComboKit)}
 {Nikon_D3100} = {NIKON D3100 + AF-S DX 18-55 mm VR Lens + AF-S DX 55-200 mm VR Lens}
-{Nikon_D3100} = {NIKON D3100 + AF-S DX 18-55 mm VR Lens + AF-S DX 55-200 mm VR Lens + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card (ComboKit)}
 {Nikon_D3100} = {NIKON D3100 + AF-S DX 18-105 VR Lens + Carry-all + 4 GB SD Card}
 {Nikon_D3100} = {NIKON D3100 + AF-S DX 18-55 mm VR Lens + AF-S DX 55-200 mm VR Lens}
 {Nikon_D3100} = {NIKON D3100 + AF-S DX 18-55 mm VR Lens + SLR Camera Case - 15x11x14.5 cm + 16 GB SDHC Memory Card + Trepix lightweight tripod}
 {Nikon_D3100} = {NIKON D3100 + AF-S DX 18-55 mm VR Lens}
 {Nikon_D3100} = {NIKON D3100 + AF-S DX 18-55 mm VR Lens}
-{Nikon_D3100} = {NIKON D3100 + AF-S DX 18-55 mm VR Lens + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card + Trepix lightweight tripod}
-{Nikon_D3100} = {NIKON D3100 + AF-S DX 18-55 mm VR Lens + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card}
 {Nikon_D3100} = {NIKON D3100 + AF-S DX 18-55 mm VR Lens + SLR Camera Case - 15x11x14.5 cm + 16 GB SDHC Memory Card + Trepix lightweight tripod}
-{Nikon_D3100} = {NIKON D3100 + AF-S DX 18-55 mm VR Lens + AF-S DX 55-200 mm VR Lens + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card}
-{Nikon_D3100} = {NIKON D3100 + AF-S DX 18-55 mm VR Lens + AF-S DX 55-200 mm VR Lens + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card + Trepix lightweight tripod}
 {Nikon_D3100} = {NIKON D3100 + AF-S DX 18-105 VR Lens + Carry-all + 4 GB SD Card}
 {Nikon_D3100} = {D3100 + 18-55 VR (18-55, SB-400, Lowepro FastPack,Filter 52mm,8GB SD)}
 {Nikon_D3100} = {NIKON D3100 + TAMRON AF 18-200}
 {Nikon_D3100} = {Nikon D3100 + AF-S DX 18-55 VR + sac + SD 4 Go}
-{Nikon_D3100} = {Nikon D3100 + Sigma 55-200mm F4-5,6 DC + Sigma 18-50mm F3.5-5.6 DC Pour Nikon +Nikon Sac CF-EU04 + carte SDHC 8GB}
 {Nikon_D3100} = {Nikon - D3100 - Kit Reflex - 14,2 Mpix + Objectif 18-55 VR + Objectif 55-200 VR}
 {Nikon_D3100} = {Nikon - D3100 - Kit Reflex - 14,2 Mpix + Objectif 18-55 VR + Objectif 55-200 VR}
 {Nikon_D3100} = {NIKON D3100 + zoom 18-55 VR (stabilisé) + sac NIKON + carte NIKON SD-HC 4GB}
@@ -4021,7 +3985,6 @@
 {Sony_Alpha_DSLR-A580} = {Sony Alpha DSLR-A580 16.2 MP Digital SLR Camera & 18-55mm Lens with 32GB Card + Battery + Case + UV Filter + Cleaning & Accessory Kit}
 {Sony_Alpha_DSLR-A580} = {Sony Alpha DSLR-A580 16.2 MP Digital SLR Camera & 18-55mm Lens with 16GB Card + Battery + Case + UV Filter + Cleaning & Accessory Kit}
 {Sony_Alpha_DSLR-A580} = {Sony Alpha DSLR-A580 16.2 MP Digital SLR Camera with 18-55mm Lens & 55-200mm Lens + 32GB Card + Battery + Case + UV Filters + Tripod + Accessory Kit}
-{Sony_Alpha_DSLR-A580} = {Sony Alpha DSLR-A580 Digital SLR Camera Body, with Sony DT 55 - 200mm f/4-5.6 Telephoto Zoom Lens for (alpha) DSLR Camera}
 {Sony_Alpha_DSLR-A580} = {Sony Alpha DSLR-A580 Digital SLR Camera Body, with Sony 75-300mm f/4.5-5.6 a (alpha) Mount Digital SLR Lens}
 {Sony_Alpha_DSLR-A580} = {Sony Alpha DSLR-A580 Digital Camera with 18-55mm Lens, & Sony DT 55 - 200mm f/4-5.6 Lens}
 {Sony_Alpha_DSLR-A580} = {Sony Alpha DSLR-A580 Digital Camera with 18-55mm Lens, & Sony 75-300mm f/4.5-5.6 a (alpha) Mount Digital SLR Lens}
@@ -4210,21 +4173,12 @@
 {Canon_EOS_550D} = {Canon EOS 550D Digital SLR Camera (inc 18-135 mm f/3.5-5.6 IS Lens Kit)}
 {Canon_EOS_550D} = {Canon EOS 550D Digital SLR Camera (inc 18-135 mm f/3.5-5.6 IS Lens Kit)}
 {Canon_EOS_550D} = {Canon - EOS 550D - Digital camera - SLR - 18.0 Mpix - Canon EF-S 18-55mm IS lens - optical zoom: 3 x - supported memory: SD, SDXC, SDHC}
-{Canon_EOS_550D} = {CANON EOS 550D + EF-S 18-55mm IS Lens + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card}
-{Canon_EOS_550D} = {CANON EOS 550D (camera only) + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card + LP-E8 lithium-ion battery + BG-E8 Battery Grip + PANORAMIC Tripod}
-{Canon_EOS_550D} = {CANON 550D + EF-S 18-55mm IS lens & EF-S 55-250mm IS lens + Accessories Kit for Canon Eos 550D cameras}
-{Canon_EOS_550D} = {CANON EOS 550D + EF-S 18-55mm IS Lens + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card + LP-E8 lithium-ion battery}
 {Canon_EOS_550D} = {CANON EOS 550D + EF-S 18-55mm IS Lens}
-{Canon_EOS_550D} = {CANON EOS 550D + EF-S 18-55mm IS Lens + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card + LP-E8 lithium-ion battery + Trepix lightweight tripod}
-{Canon_EOS_550D} = {CANON EOS 550D (camera only) + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card}
 {Canon_EOS_550D} = {CANON EOS 550D (camera only) + SLR Camera Case - 15x11x14.5 cm + 16 GB SDHC Memory Card + LP-E8 lithium-ion battery + BG-E8 Battery Grip + PANORAMIC Tripod}
 {Canon_EOS_550D} = {CANON EOS 550D (camera only) + SLR Camera Case - 15x11x14.5 cm + 16 GB SDHC Memory Card + LP-E8 lithium-ion battery + BG-E8 Battery Grip + PANORAMIC Tripod}
 {Canon_EOS_550D} = {CANON EOS 550D (camera only) + SLR Camera Case - 15x11x14.5 cm + 16 GB SDHC Memory Card + LP-E8 lithium-ion battery + BG-E8 Battery Grip + PANORAMIC Tripod}
 {Canon_EOS_550D} = {CANON EOS 550D (camera only)}
-{Canon_EOS_550D} = {CANON EOS 550D (camera only) + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card + LP-E8 lithium-ion battery + BG-E8 Battery Grip + PANORAMIC Tripod}
-{Canon_EOS_550D} = {CANON EOS 550D (camera only) + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card}
 {Canon_EOS_550D} = {CANON EOS 550D + EF-S 18-135 mm IS Lens}
-{Canon_EOS_550D} = {CANON 550D + EF-S 18-55mm IS lens & EF-S 55-250mm IS lens + Accessories Kit for Canon Eos 550D cameras}
 {Canon_EOS_550D} = {CANON EOS 550D + EF-S 18-135 mm IS Lens}
 {Canon_EOS_550D} = {Canon EOS 550D Digital SLR Double Zoom Kit}
 {Canon_EOS_550D} = {Canon EOS 550D Digital SLR Double Zoom Kit}
@@ -4243,7 +4197,6 @@
 {Canon_EOS_550D} = {EOS 550D + 50mm 1.8 + 270EX (Body only, EF 50mm 1.8, 270EX, 4GB SDHC, S.protect)}
 {Canon_EOS_550D} = {EOS 550D + 18-55 IS + Lowepro (Kit 18-55 mm IS)}
 {Canon_EOS_550D} = {EOS 550D + EF-S 18-200 + Accessories (EF-S 18-200 mm, 100EG, 16GB SD, 72mm UV Filter)}
-{Canon_EOS_550D} = {CANON 550D + objectifs EF-S 18-55 IS & EF-S 55-250 IS + Pack accessoires pour Canon Eos 550D}
 {Canon_EOS_550D} = {CANON EOS 550D + EF-S 18-55 mm f/3.5-5.6 IS}
 {Canon_EOS_550D} = {CANON EOS 550D + TAMRON 18-200mm}
 {Canon_EOS_550D} = {Canon - EOS 550D - Kit Reflex - 18 Mpix + Objectif EF-S 18-55 mm f/3,5-5,6 IS - Noir}
@@ -4255,8 +4208,6 @@
 {Canon_EOS_550D} = {Canon - EOS 550D - Double Kit Reflex - 18 Mpix + Objectifs EF-S 18-55 mm IS et 55-250 mm IS - Noir}
 {Canon_EOS_550D} = {Canon - EOS 550D - Appareil photo reflex numérique -18 mégapixels / LiveView - Kit incl. objectif EF-S 18-135mm 1:3,5-5,6 IS (stabilisateur d'image) (Import Allemagne)}
 {Canon_EOS_550D} = {Canon - EOS 550D - Appareil photo reflex numérique -18 mégapixels / LiveView - Kit incl. objectif EF-S 18-135mm 1:3,5-5,6 IS (stabilisateur d'image) (Import Allemagne)}
-{Canon_EOS_550D} = {CANON EOS 550D + objectif EF-S 18-55 IS + Pack accessoires pour Canon Eos 550D}
-{Canon_EOS_550D} = {CANON 550D + objectifs EF-S 18-55 IS & EF-S 55-250 IS + Pack accessoires pour Canon Eos 550D}
 {Canon_EOS_550D} = {CANON EOS 550D + objectif EF-S 18-135 IS}
 {Canon_EOS_550D} = {CANON EOS 550D + zoom CANON 18-200 IS (stabilisé) + 2° batterie CANON + 2x Filtres + Carte 16GB + Sac}
 {Canon_EOS_550D} = {CANON EOS 550D + zoom TAMRON 18-270mm PIEZO VC(stabilisé) + Carte 8GB ultra-rapide + 2x Filtres + 2° batterie}
@@ -4523,8 +4474,6 @@
 {Canon_EOS_Rebel_T2i} = {Canon EOS Rebel T2i 18 MP CMOS APS-C Digital SLR Camera with 3.0-Inch LCD and EF-S 18-135mm f/3.5-5.6 IS UD Standard Zoom Lens}
 {Canon_EOS_Rebel_T2i} = {Canon EOS Rebel T2i 18 MP CMOS APS-C Digital SLR Camera with 3.0-Inch LCD and EF-S 18-135mm f/3.5-5.6 IS UD Standard Zoom Lens}
 {Canon_EOS_Rebel_T2i} = {Canon EOS Rebel T2i - Digital camera - SLR - 18.0 Mpix - Canon EF-S 18-55mm IS lens - optical zoom: 3 x - supported memory: SD, SDXC, SDHC}
-{Canon_EOS_Rebel_T2i} = {Canon Starter Kit for EOS Digital Rebel T2i SLR Camera, with Gadget Bag, Battery & Mini-HDMI Cable}
-{Canon_EOS_Rebel_T2i} = {Canon Starter Kit for EOS Digital Rebel T2i SLR Camera, with Gadget Bag, Battery & Mini-HDMI Cable}
 {Canon_EOS_Rebel_T2i} = {Canon EOS Rebel T2i Digital SLR Camera + Tamron 28-80mm & 70-300mm Lenses + 16GB Card + Battery + Canon 2400 DSLR Gadget Bag Case + UV Filters}
 {Canon_EOS_Rebel_T2i} = {Canon EOS Rebel T2i 18 MP CMOS APS-C Digital SLR Camera with EF-S 18-55mm f/3.5-5.6 IS Lens + 16GB Deluxe Accessory Kit}
 {Canon_EOS_Rebel_T2i} = {Canon EOS Rebel T2i Digital SLR Camera +16GB Card + Battery + Case + Accessory Kit}
@@ -4916,9 +4865,6 @@
 {Pentax_K-7} = {Pentax K-7 14.6 MP Digital SLR with Shake Reduction and 720p HD Video with DA 18-55mm f/3.5-5.6 AL Weather Resistant Lens}
 {Pentax_K-7} = {Pentax K-7 14.6 MP Digital SLR Camera with DA 18-55mm WR Lens + Sigma 70-300MM Macro Zoom Lens + High Definition .40X Super Wide Fisheye Lens + High Capacity Li-Ion Battery + 8 GB Memory Card + 50" Titanium Anodized Tripod + 6 Piece Accessory Kit + Deluxe Padded Camera Bag + Multi-Coated Glass UV Filter + Multi-Coated Glass Polarizer Filter + Multi-Coated Glass FLD Filter + 3 Year Warranty Repair Contract}
 {Pentax_K-7} = {Pentax K-7 14.6 MP Digital SLR Camera with DA 18-55mm WR Lens + 4 GB Memory Card + 6 Piece Accessory Kit + Camera Holster Case + Multi-Coated Glass UV Filter + 3 Year Warranty Repair Contract}
-{Pentax_K-7} = {Pentax K-7 14.6 MP Digital SLR with Shake Reduction and 720p HD Video (Body Only) 17811 + Pentax 2-Year Extended Warranty for K7 D-SLR Cameras + Transcend 8GB SDHC + Willoughby's Travelers Package # 1}
-{Pentax_K-7} = {Pentax K-7 14.6 MP Digital SLR with Shake Reduction and 720p HD Video (Body Only) 17811 + Pentax 2-Year Extended Warranty for K7 D-SLR Cameras + Two (2) Transcend 8GB SDHC + Willoughby's Travelers Package # 2}
-{Pentax_K-7} = {Pentax K-7 14.6 MP Digital SLR with Shake Reduction and 720p HD Video (Body Only) 17811 + Pentax 16-45mm f/4.0 SMC PDA ED AL Zoom Lens + Pentax 2-Year Extended Warranty for K7 D-SLR Cameras + Two (2) Transcend 8GB SDHC + Willoughby's Travelers Package # 3}
 {Pentax_K-7} = {Pentax K-7 Kit inkl. 18-55mm Objektiv}
 {Pentax_K-7} = {Pentax - K-7 - Appareil photo reflex numérique 14,6 Mpix + Objectif numérique 18-55mm}
 {Pentax_K-7} = {Pentax - K-7 - Appareil photo reflex numérique 14,6 Mpix + Objectif numérique 18-55mm}
@@ -4961,11 +4907,8 @@
 {Pentax_K-5} = {Pentax K-5 Digital SLR Camera with DA 18-55 WR - DA 50-200 WR Lens Kit}
 {Pentax_K-5} = {Pentax K-5 Digital SLR Camera with DA 18-55 WR Lens Kit}
 {Pentax_K-5} = {Pentax K-5 Digital SLR Camera with DA 18-55 WR Lens Kit}
-{Pentax_K-5} = {PENTAX K-5 + DA 18-135 mm WR Lens + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card + Trepix lightweight tripod}
 {Pentax_K-5} = {PENTAX K-5 + DA 18-135 mm WR Lens}
-{Pentax_K-5} = {PENTAX K-5 + DA 18-135 mm WR Lens + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card + D-LI90 Battery}
 {Pentax_K-5} = {PENTAX K-5 + DA 18-135 mm WR Lens}
-{Pentax_K-5} = {PENTAX K-5 + DA 18-135 mm WR Lens + Expert Shot Backpack for digital cameras - black/orange + 16 GB SDHC Memory Card + D-LI90 Battery + Trepix lightweight tripod}
 {Pentax_K-5} = {Pentax K-5 Digital SLR Camera - Body Only}
 {Pentax_K-5} = {Pentax K-5 Digital SLR Camera - Body Only}
 {Pentax_K-5} = {Pentax - K-5 - Reflex boîtier nu - 16,3 Mpix - Noir}
@@ -5361,7 +5304,6 @@
 {Nikon_Coolpix_S8100} = {Nikon - Coolpix S8100 - Appareil photo numérique - 12,1 Mpix - Noir Velouté}
 
 
-{Nikon_D5000} = {Nikon EN-EL9a 1080mAh Ultra High Capacity Li-ion Battery Pack for Nikon D40, D40x, D60, D3000, & D5000 Digital SLR Cameras}
 {Nikon_D5000} = {Nikon D5000 12.3 MP DX Digital SLR Camera with 18-55mm f/3.5-5.6G VR Lens and 2.7-inch Vari-angle LCD}
 {Nikon_D5000} = {Nikon D5000 12.3 MP DX Digital SLR Camera with 18-55mm f/3.5-5.6G VR Lens and 2.7-inch Vari-angle LCD}
 {Nikon_D5000} = {Nikon D5000 12.3MP DX CMOS Digital SLR Camera with 18-55mm f/3.5-5.6G VR and 55-200mm f/4-5.6G VR Lenses and 2.7-inch Vari-angle LCD}
@@ -5401,7 +5343,6 @@
 {Nikon_D5000} = {NIKON D5000 + AF-S DX VR 18-55mm Lens + AF-S DX VR 55-200mm Lens + CF-DC2 Semi-Soft Case}
 {Nikon_D5000} = {Nikon D5000 Kit AF-S DX 18-105 VR}
 {Nikon_D5000} = {Nikon D5000 Kit Digitalkamera 12.3 (4288 x 2848) Schwarz + VR-Objektiv AF-S DX Zoom NIKKOR 18-200 mm schwarz}
-{Nikon_D5000} = {NIKON D5000 + Sigma 55-200mm F4-5,6 DC + Sigma 18-50mm F3.5-5.6 DC Pour Nikon +Nikon Sac CF-EU04 + carte SDHC 8GB}
 {Nikon_D5000} = {Nikon - Kit D5000 - Appareil photo reflex numérique 2,7" + Objectif AF-S DX VR 18-55 - 12,3 Mpix - Processeur Expeed - Noir}
 {Nikon_D5000} = {Nikon - Kit D5000 - Appareil photo reflex numérique 2,7" + Objectif AF-S DX VR 18-55 - 12,3 Mpix - Processeur Expeed - Noir}
 {Nikon_D5000} = {Nikon - D5000 - Appareil photo reflex numérique 2,7" - 12,3 Mpix - Ecran 2,7" - Processeur Expeed - Noir}
@@ -5568,9 +5509,6 @@
 
 {Nikon_D3S} = {Nikon D3S 12.1 MP CMOS Digital SLR Camera with 3.0-Inch LCD and 24fps 720p HD Video Capability (Body Only)}
 {Nikon_D3S} = {Nikon D3S 12.1 MP CMOS Digital SLR Camera with 3.0-Inch LCD and 24fps 720p HD Video Capability (Body Only)}
-{Nikon_D3S} = {Nikon 18-200mm f/3.5-5.6G AF-S VR II ED Lens with HB-35 Hood & Pouch Case + UV Filter for for Nikon D60, D90, D3000, D3100, D5000, D7000, D300S, D700 & D3S Digital SLR Cameras}
-{Nikon_D3S} = {Nikon 18-200mm f/3.5-5.6G AF-S VR II ED Lens with HB-35 Hood & Pouch Case + Nikon Case + 3 UV/FLD/CPL Filters + Cleaning Kit for Nikon D60, D90, D3000, D3100, D5000, D7000, D300S, D700 & D3S Digital SLR Cameras}
-{Nikon_D3S} = {Nikon 70-300mm f/4.5-5.6G ED IF AF-S VR Digital SLR Zoom Lens with HB-36 Hood & Pouch Case + 3 UV/CPL/Warm Filters + Accessory Kit for D3000, D3100, D5000, D7000, D90, D300s, D700 & D3S DSLR}
 {Nikon_D3S} = {Nikon D3S 12.1 MP CMOS Digital SLR Camera with 3-Inch LCD and 24fps 720p HD Video Capability (Body Only)}
 {Nikon_D3S} = {Nikon D3S 12.1 MP CMOS Digital SLR Camera with 3-Inch LCD and 24fps 720p HD Video Capability (Body Only)}
 {Nikon_D3S} = {Nikon - D3S - Appareil photo Reflex numérique - 12 Mpix - Ecran 3" - Boîtier nu - Noir}
